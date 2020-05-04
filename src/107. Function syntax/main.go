@@ -1,4 +1,4 @@
-//107 function syntax 句法
+//107 function syntax 句法 func 類型
 
 // func (r 接收器) 標示符identifier(參數s)  (返回sreturn(s)) {...}
 // func (r receivere) identifier(parameters) (return(s)) {...}
@@ -11,33 +11,33 @@ package main
 import "fmt"
 
 func main() {
-	// 簡易版 function
+	// 1.簡易版 function
 	hi()
-	// 帶入參數 function
+	// 2.帶入參數 function
 	get_value_in_function("value")
-	// 帶入參數 並 回傳 function 需要容器
+	// 3.帶入參數 並 回傳 function 需要容器
 	value_st := string("0000")
 	fmt.Println(value_st)
-	////////////////////////////////////////////////
+
 	st := value_in_and_return_new_value_out(value_st)
 	fmt.Println(st)
-	//  雙value 帶入帶出
+	// 4.雙value 帶入帶出
 	x, y := two_value("A", "B")
 	fmt.Println(x)
 	fmt.Println(y)
 }
 
-// 簡易版 function 單純召喚並運作
+// 1.簡易版 function 單純召喚並運作
 func hi() {
 	fmt.Println("hello word")
 }
 
-// 帶入參數 function 若要使用帶入的參數 需要容器 ex: x
+// 2.帶入參數 function 若要使用帶入的參數 需要容器 ex: x
 func get_value_in_function(x string) {
 	fmt.Println("i am function i get:", x)
 }
 
-// 帶入參數 並 回傳 function 需要容器
+// 3.帶入參數 並 回傳 function 需要容器
 func value_in_and_return_new_value_out(st string) string {
 	return fmt.Sprint("回傳到st", st)
 }

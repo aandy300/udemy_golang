@@ -1,4 +1,4 @@
-//110 Defer 延遲?
+//110 Defer 延遲? ex資料寫入時用
 //把下的目標移到最後去執行
 // 官方文件 exsample : https://gobyexample.com/defer
 package main

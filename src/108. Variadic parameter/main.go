@@ -8,7 +8,7 @@ import "fmt"
 func main() {
 	//func 投幣口可以多個數字
 	x := sum(1, 2, 3, 4, 5, 6, 7, 8, 9)
-	fmt.Println("sum=", x)
+	fmt.Println("return sum=", x)
 }
 
 //多個時 func名稱 (容器 ...int) 回傳類型 {code...}
