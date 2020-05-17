@@ -1,4 +1,4 @@
-//113. Anonymous func 隱匿 fumc = main內宣
+//113. Anonymous func 隱匿 func = main內宣
 //exsample 下面
 //投值時 注意填寫
 

@@ -1,4 +1,5 @@
 //112 interfaces & polymorphism
+// 一個值可以有很多種type
 // func (容器 類型) 接收器
 // type 名稱 interface {內容...}
 
