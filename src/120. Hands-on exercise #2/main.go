@@ -1,4 +1,5 @@
-//120.#2 寫入多參數 ... 迴圈輪流印出 練習 func xxx(x []int) func xxx(x ...int) 兩種接受方式
+//120.#2 寫入多參數 ...
+//迴圈輪流印出 練習 func xxx(x []int) func xxx(x ...int) 兩種接受方式
 package main
 
 import "fmt"

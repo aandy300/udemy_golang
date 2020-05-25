@@ -1,4 +1,4 @@
-//#126 .8 func return fun()
+//126. #8 func return fun()
 package main
 
 import "fmt"

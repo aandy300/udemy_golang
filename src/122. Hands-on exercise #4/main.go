@@ -35,6 +35,7 @@ func main() {
 	w1.speak()
 }
 
+//容器 接收器
 func (p person) speak() {
 	fmt.Println("hi", "i am", p.f_name, p.l_name, "my age was", p.age)
 }

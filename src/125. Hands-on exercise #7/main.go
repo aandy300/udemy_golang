@@ -1,4 +1,4 @@
-//#125 .7 func存到容器裡面
+//125. #7 func存到容器裡面
 package main
 
 import "fmt"

@@ -1,4 +1,4 @@
-//124. #6 隱匿 func
+//124. #6 隱匿 func 內宣
 package main
 
 import "fmt"

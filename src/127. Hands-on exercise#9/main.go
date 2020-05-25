@@ -1,4 +1,4 @@
-//#127 #9 callback 練習 #116圖解 把參數放置到foo f(x,y)將參數放置math_a運作
+//127. #9 callback 練習 dc圖解 把參數放置到foo f(x,y)將參數放置math_a運作
 package main
 
 import "fmt"

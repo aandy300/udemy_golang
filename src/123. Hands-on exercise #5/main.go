@@ -1,4 +1,4 @@
-//123. #5
+//123. #5 轉來轉去 interface 賦予type 執行 interface裡的 area()
 package main
 
 import (
