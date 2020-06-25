@@ -1,9 +1,9 @@
 //130. pointers 指標 function 和 main 記憶體的位置不一樣
 
-// & gives you the address 記憶體 " 位置 "
+// & = gives you the address 記憶體 " 位置 "
 // ex p = &a // 將p指到a的記憶體位置
 
-// *代表顯示該記憶體位置的值
+// * = 代表顯示該記憶體位置的值
 // ex fmt.Println(*b)
 
 // 中文解說
