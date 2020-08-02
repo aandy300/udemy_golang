@@ -1,15 +1,28 @@
-//if else if else
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
+
+func say(s string) {
+
+	for i := 0; i < 2; i++ {
+
+		runtime.Gosched()
+
+		fmt.Println("text printout:", s)
+
+	}
+
+}
 
 func main() {
-	x := 66
-	if x == 69 {
-		fmt.Println("x = 66")
-	} else if x < 65 {
-		fmt.Println("x <= 65.")
-	} else {
-		fmt.Println("x not 66.")
-	}
+
+	go say("world")
+
+	say("hello")
+
+	fmt.Println("test")
+
 }

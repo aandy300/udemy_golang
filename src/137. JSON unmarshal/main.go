@@ -1,4 +1,7 @@
 // 137. JSON unmarshal JSON 格式 還原 tag
+
+// JSON檔(str) > []byte() 轉換為uint8 > 宣 []type 切片儲存 > json.Unmarshal 解碼 > for range 印出
+
 // js to go https://mholt.github.io/json-to-go/
 //			解包        資料 結構類型用address連結
 // err := json.Unmarshal(bs, &people)
@@ -69,7 +72,7 @@ func main() {
 	// 將s轉換為uint8
 	// 									pointed
 	// func Unmarshal(data []byte, v interface{}) error
-	// type byte = uint8
+	// type byte = uint8W
 	bs := []byte(s)
 
 	fmt.Printf("%T\n", s)

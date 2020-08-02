@@ -1,4 +1,7 @@
 // 138. Writer interface 各種 寫與印 的方法(func)
+
+// Encorder 144. main 和 看圖
+
 // 扯到file 都會友 Write的type
 //https://golang.org/pkg/os/#NewFile
 

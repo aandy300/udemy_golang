@@ -1,6 +1,13 @@
-// 136. JSON Marshal https://golang.org/pkg/encoding/json/#example_Marshal
+// 136. JSON Marshal
+// https://golang.org/pkg/encoding/json/#example_Marshal
+// https://golang.org/pkg/encoding/json/#Marshal
 // 範例 JSON Marshal ¶ 將資料打包成JSON格式
 // 結構體字頭要大寫 JSON印才正常 Name v name x
+
+// string(bs) 解碼?
+// https://gobyexample.com/json
+// map[string]interface{}將保存字符串到任意數據類型的映射。
+// string(bs) 因為 string有對應的映射所以可以解碼JSON?
 package main
 
 import (
