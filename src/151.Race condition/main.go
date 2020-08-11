@@ -29,6 +29,7 @@ func main() {
 			runtime.Gosched()
 			v++
 			counter = v
+			fmt.Println(counter)
 			wg.Done() // = -1 goroutines 序?
 		}() // Note the parentheses - must call the function. 注意括號-必須調用該函數。
 		fmt.Println("goroutines", runtime.NumGoroutine())

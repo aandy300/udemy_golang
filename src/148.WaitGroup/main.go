@@ -3,7 +3,7 @@
 // wg.Wait() // 如果沒有 wait 程序會直接結束 接收 到 wg.Done 才繼續執行下去
 // wg.Done()
 // go foo()  // go xxx() = 增加使用一條序?
-// go ***() 優先順序為2 沒 "go" ***()得先跑 ex bar()
+// go ***() 優先順序為2 沒 "go" ***()得先跑 ex bar() ? or go 先跑?  165. go func()..先跑
 
 package main
 
