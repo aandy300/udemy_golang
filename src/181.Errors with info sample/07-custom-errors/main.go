@@ -1,4 +1,4 @@
-//error
+// 181. Errors with info AT ALL 2020 4月  開始學GO時提前看得
 package main
 
 import (
@@ -34,7 +34,7 @@ func main() {
 
 func sprt(f float64) (float64, error) {
 	if f < 0 {
-		return 0, errors.New("error herer")
+		return 0, errors.New("error here")
 	}
 	return 42, nil
 
