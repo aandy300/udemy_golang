@@ -5,17 +5,17 @@
 
 //  https://godoc.org/testing
 //  http://www.golang-book.com/books/intro/12
-package math
+// package math
 
-import "testing"
+// import "testing"
 
-func main() {
-	TestAbs(0)
-}
+// func main() {
+// 	TestAbs(0)
+// }
 
-func TestAbs(t *testing.T) {
-	got := Abs(-1)
-	if got != 1 {
-		t.Errorf("Abs(-1) = %d; want 1", got)
-	}
-}
+// func TestAbs(t *testing.T) {
+// 	got := Abs(-1)
+// 	if got != 1 {
+// 		t.Errorf("Abs(-1) = %d; want 1", got)
+// 	}
+// }
