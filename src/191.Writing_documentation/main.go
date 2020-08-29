@@ -3,7 +3,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/aandy300/udemy_golang/tree/master/src/191.Writing%20documentation/01/mymathTwo"
+	// "udemy_golang/src/191.Writing_documentation/01/mymathTwo"
+	"github.com/aandy300/udemy_golang/tree/master/src/191.Writing_documentation/01/mymathTwo"
 )
 
 func main() {
