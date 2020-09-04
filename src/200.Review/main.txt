@@ -1,0 +1,22 @@
+200.Review
+
+# Rember to BET
+- Benchmark 檢測效能
+- Example
+- Test
+
+```
+BenchmarkCat(b *testing.B)
+ExampleCat()
+TestCat(t *testing.T)
+```
+
+# Commands
+
+```
+go test
+go test -bench 檢測效能
+go test -cover 檢測涵蓋率
+go test -coverprofile c.out 檢測涵蓋率並輸出
+go tool cover -html=c.out 預覽器開啟涵蓋率輸出檔(方便閱讀)
+```

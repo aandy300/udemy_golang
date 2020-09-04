@@ -1,3 +1,6 @@
+// test pkg中文解說
+// https://openhome.cc/Gossip/Go/Testing.html
+
 // mymathTwo
 package mymathTwo
 
