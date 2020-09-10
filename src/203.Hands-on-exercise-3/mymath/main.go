@@ -1,3 +1,4 @@
+// Package mymath ...
 package mymath
 
 import (

@@ -6,9 +6,9 @@
 - Test
 
 ```
+TestCat(t *testing.T)
 BenchmarkCat(b *testing.B)
 ExampleCat()
-TestCat(t *testing.T)
 ```
 
 # Commands
@@ -19,4 +19,23 @@ go test -bench 檢測效能
 go test -cover 檢測涵蓋率
 go test -coverprofile c.out 檢測涵蓋率並輸出
 go tool cover -html=c.out 預覽器開啟涵蓋率輸出檔(方便閱讀)
+```
+
+# Golint
+
+- Package mymath ... // pkg註解寫法
+- CenteredAvg ... // func註解寫法
+
+```
+CMD > golint ./...
+
+github https://github.com/golang/lint
+install go get -u golang.org/x/lint/golint
+
+gofmt
+formats go code 格式化code
+go vet
+reports suspicious constructs 回報可疑結構
+golint
+reports poor coding style 回報不良代碼風格
 ```
