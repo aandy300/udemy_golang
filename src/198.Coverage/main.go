@@ -10,7 +10,7 @@
 //              啟用的覆蓋範圍可能報告的行號不對應
 //              原始來源。
 
-// go -coverprofile c.out
+// go test -coverprofile c.out
 // -coverprofile cover.out
 //              所有測試通過後，將coverage配置文件寫入文件輸出 c.out。
 //              設置-cover。

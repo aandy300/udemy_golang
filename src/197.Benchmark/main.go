@@ -10,6 +10,15 @@
 // CMD > go test -bench . 全體測試
 // CMD > go test -bench Grreet 單體測試
 
+// go test -coverprofile c.out
+// -coverprofile cover.out
+//              所有測試通過後，將coverage配置文件寫入文件輸出 c.out。
+//              設置-cover。
+
+// go tool cover -html=c.out
+// 開預覽器 看覆蓋率 (方便閱讀)
+// 原理 > go tool > go tool cover > -html=c.out > 生成coverage配置文件的HTML表示
+
 // -benchmem
 // -bench正則表達式
 //              僅運行與正則表達式匹配的那些基準。
